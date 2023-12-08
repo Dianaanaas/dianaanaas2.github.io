@@ -73,7 +73,7 @@ p {
 
 h3, p {
     color: #989898;
-    margin: 15px;
+    margin: 15px 0;
 }
 
 .cards {
@@ -124,11 +124,17 @@ h3, p {
 }
 .film {
     margin-bottom: 15px;
+    height: 100%;
 }
 
-.film a img {
+
+.film a img, .film2 a img {
     border-radius: 18px;
     width: 322px;
+}
+
+.film2 a img {
+    height: 485px;
 }
 
 .rating {
